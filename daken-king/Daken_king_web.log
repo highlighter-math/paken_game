@@ -1,0 +1,21 @@
+﻿  ports:INFO: retrieving port: ogg from https://github.com/emscripten-ports/ogg/archive/version_1.zip
+  ports:INFO: unpacking port: ogg
+  cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\libogg.a... (this will be cached in "C:\Users\koeki\AppData\Local\Programs\EmscriptenOffline\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\libogg.a" for subsequent builds)
+  root:INFO: building port: ogg
+  cache:INFO:  - ok
+  ports:INFO: retrieving port: vorbis from https://github.com/emscripten-ports/vorbis/archive/version_1.zip
+  ports:INFO: unpacking port: vorbis
+  cache:INFO: generating system library: sysroot\lib\wasm32-emscripten\libvorbis.a... (this will be cached in "C:\Users\koeki\AppData\Local\Programs\EmscriptenOffline\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten\libvorbis.a" for subsequent builds)
+  root:INFO: building port: vorbis
+  cache:INFO:  - ok
+  LLD 16.0.0
+emcc : warning : running limited binaryen optimizations because DWARF info requested (or indirectly required) [-Wlimited-postlink-optimizations]
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-existing function name: s3d::TryMain() (s3d::TryMain\28\29)
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-existing function name: s3d::CRenderer2D_WebGPU::init() (s3d::CRenderer2D_WebGPU::init\28\29)
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-matching pattern: s3d::Clipboard::GetText(*) (s3d::Clipboard::GetText\28*\29)
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-matching pattern: s3d::GenericDecoder::decode(*) const (s3d::GenericDecoder::decode\28*\29\20const)
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-matching pattern: s3d::ImageDecoder::GetImageInfo(*) (s3d::ImageDecoder::GetImageInfo\28*\29)
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-matching pattern: s3d::Model::Model(*) (s3d::Model::Model\28*\29)
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-matching pattern: s3d::SimpleHTTP::Load(*) (s3d::SimpleHTTP::Load\28*\29)
+EMSCRIPTENLINK : warning : Asyncify addlist contained a non-matching pattern: s3d::SimpleHTTP::Post(*) (s3d::SimpleHTTP::Post\28*\29)
+  Daken_king_web.vcxproj -> C:\Users\koeki\Downloads\Daken_king_web\Emscripten\Debug\Daken_king_web.html
